@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APPLICATION</title>
+    <link rel="shortcut icon" href="./assets/Weather Icons & Symbols_files/1146799.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id ="main_container">
+        <section id = "card_container">
+        <form>
+            <input type="text" id ="location" placeholder="Enter your location">
+            <input type="submit" value="GET WEATHER">
+        </form>
+        <article id ="image_container">
+          <img src="./assets/weatherfavicon_files/1146869.png" alt="" id="weatherImage">
+          <h3 >NULL</h3>
+        </article>
+        <article id ="temp_humid">
+           <aside class = "temp">
+               <h1  class = "temp ">TEMPARATURE</h1>
+               <p class ="paragraph temp_value">0<sup>o</sup>C</p>
+           </aside >
+           <aside class = "humid">
+            <h1 class ="humid">HUMIDITY</h1>
+            <p class ="paragraph humid_value">0Km/ph</p>
+        </aside>
+        </article>
+    </section>
+   </main>
+        
+    
+    <script src="./script.js"></script>
+</body>
+</html>
